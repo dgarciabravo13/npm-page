@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: Roboto;
+  line-height:2em;
+}
+
+.clearfix { 
+  clear: both; 
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 40px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  line-height: normal;
+  
+}
+
+.top-left {
+  float: left;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-align: center;
+}
+
+.top-links {
+  
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  text-align: center;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  
+}
+
+.header {
+  color: white;
+  background-image: url(/home/dgb_01/Descargas/lab-html-module-exercise-master/starter-code/images/city-scape.svg);
+  background-position:0 0;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:650px;
+  position:relative;
+}
+
+div.bar-header {
+  
+  padding: 10px 0;
+  height: 40px;
+}
+
+.item a {
+  text-decoration: none;
+  color: white;
+}
+
+.col-rside {
+  float: right;
+  margin-right: 10px;
+}
+
+.col-lside {
+  float: left;
+  margin-left: 10px;
+}
+
+input[type="search"]{
+  width: 1170px;
+  padding: 9px 10px 9px 10px;
+  border:1px solid gray;
+  color:gray;
+  background-color: rgb(31, 82, 111);
+}
+
+.bar-header button {
+  padding: 9px 11px;
+  border:1px solid gray;
+  color:white;
+  background-color: rgb(31, 82, 111);
+}
+
+header aside {
+  padding-top: 10px;
+}
+
+.mid-header {
+  margin: 0 auto;
+  width: 500px;
+  padding-top: 150px;
+}
+
+.button {
+  width: 150px;
+  padding: 9px 10px 9px 10px;
+  border-radius: 15em;
+  border:1px solid transparent;
+  font-family: Roboto;
+  color:white;
+  font-size:1em;
+  margin-top: 10px;
+}
+
+.mid-header button {
+  background: rgb(240, 146, 51);
+}
+
+.container {
+  width:1200px;
+  Margin:0 auto;
+  Padding:75px 0;
+}
+
+#collaboration {
+  color:white;
+  background: rgb(39, 53, 71);
+}
+
+#collaboration article {
+  float: right;
+  }
+
+#collaboration button {
+  background:rgb(203, 56, 55);
+}  
+
+#whatis {
+  background-image: url(/home/dgb_01/Descargas/lab-html-module-exercise-master/starter-code/images/forklift.svg);
+  background-size:cover;
+  height:650px;
+  position:relative;
+}
+
+#whatis div {
+  position:absolute;
+  top:250px;
+  left:150px;
+  color:white;
+}
+
+#whatis button {
+  background: rgb(49, 68, 88);
+}
+
+#description .section-text {
+  text-align: center;
+  margin: 30px 0;
+}
+
+#description .paragraph {
+  line-height: normal;
+  color:rgb(135, 145, 156);
+  padding: 0 60px;
+}
+
+#description .paragraph a {
+color: rgb(208, 74, 73);
+}
+
+
+
+
+
+#description .text-center {
+  text-align: center;
+  color: rgb(83, 88, 98);
+
+}
+
+.col-33 {
+  float: left;
+  width: 33%;
+}
